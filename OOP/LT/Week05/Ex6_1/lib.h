@@ -31,6 +31,6 @@ public:
     HistogramArray(int s, int arr[], int hSize);
 	~HistogramArray();
 
-	void computeHistogram() const;
-	void displayHistogram() const;
+	void computeHist() const;
+	void displayHist() const;
 };

@@ -80,7 +80,7 @@ HistogramArray::~HistogramArray() {
 	delete[] histogram;
 }
 
-void HistogramArray::computeHistogram() const {
+void HistogramArray::computeHist() const {
 	for (int i = 0; i < histSize; i++) {
 		histogram[i] = 0;
 	}
@@ -95,7 +95,7 @@ void HistogramArray::computeHistogram() const {
 	}
 }
 
-void HistogramArray::displayHistogram() const {
+void HistogramArray::displayHist() const {
     cout << "| ";
 	for (int i = 0; i < histSize; i++) {
 		cout << i << " -> " << histogram[i] << " | ";
